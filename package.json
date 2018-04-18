@@ -1,0 +1,11 @@
+{
+  "name": "incredibly-super-simple-cv-maker",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/Fconstant/incredibly-super-simple-cv-maker.git",
+  "author": "Felipe Constantino <felipe.constantino@linux.autbank>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}

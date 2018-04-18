@@ -1,0 +1,49 @@
+/*
+Color palette:
+
+Primary: #1D566E
+Secondary: #21ABA5
+Accent: #45EBA5
+*/
+
+body {
+    padding: 10px;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading {
+    border-top: #163A5F solid 1.5px;
+    padding-top: 10px;
+    font-weight: lighter;
+    color: #1D566E;
+    text-align: center;
+}
+
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+}
+
+.basic-info div {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 45%;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    justify-content: space-between;
+}
+
+.basic-info div :nth-child(1) {
+    font-weight: bold;
+}
+
+.info {
+    align-self: center;
+}
+
+.category-content {
+
+}
